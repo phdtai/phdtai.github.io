@@ -16,8 +16,8 @@ main() {
     # if you want to add any commands do it here e.g. `touch .nojekyll`
 
     git init
-    git config user.name "GitHub Actions"
-    git config user.email "github-actions-bot@users.noreply.github.com"
+    git config user.name "phdtai"
+    git config user.email "phdtai@gmail.com"
     git add .
 
     git commit -m "Deploy ${GITHUB_REPOSITORY} to ${GITHUB_REPOSITORY}:gh-pages"
