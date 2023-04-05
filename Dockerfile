@@ -1,6 +1,6 @@
 # any Docker image is fine, I prefer debian
 from debian:stable-slim
-TAI PHAM  phdtai@gmail.com
+MAINTAINER TAI PHAM phdtai@gmail.com
 
 # for github actions
 LABEL "com.github.actions.name"="ACTION_NAME"
