@@ -5,7 +5,6 @@ set -o pipefail
 main() {
     git config --global url."https://".insteadOf git://
     git config --global url."$GITHUB_SERVER_URL/".insteadOf "git@github.com":
-    git config --global --add safe.directory /github/workspace
 
 
     # update git submodules (important if you have themes)
@@ -16,6 +15,7 @@ main() {
     cd public
 
     # if you want to add any commands do it here e.g. `touch .nojekyll`
+    touch .nojekyll
 
     git init
     git config user.name "phdtai"
