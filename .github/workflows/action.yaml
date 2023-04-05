@@ -1,0 +1,6 @@
+name: 'GITHUB ACTION FOR ZOLA'
+description: 'DESC'
+author: 'TAI PHAM'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
