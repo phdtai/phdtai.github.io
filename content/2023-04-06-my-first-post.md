@@ -15,7 +15,7 @@ import pandas as pd
 
 Testing math formula 
 {{ katex(body="y=a+bx") }}
-I have success fully add KaTex support for this theme. From now on I can use the <bkd>katex.html<bkd> short code to generate math symbols and equation. For example, we can use greek letter as {{ katex(body="\alpha")}} 
+I have success fully add KaTex support for this theme. From now on I can use the <kbd>katex.html</kbd> short code to generate math symbols and equation. For example, we can use greek letter as {{ katex(body="\alpha")}} 
 
 We can also write an equation using this
 {% katex(block=true) %}f(x)=a+bx+cx^{2}{% end %}
@@ -23,3 +23,15 @@ We can also write an equation using this
 
 Testing emoji
 {{ kaomoji(label="shrug kaomoji", text="╮( ˘_˘ )╭") }}
+
+Testing image embbeding
+
+<a href="https://xkcd.com/2748">
+<img src="https://imgs.xkcd.com/comics/radians_are_cursed.png" width="400"> <a>
+
+
+[![Alt text](https://imgs.xkcd.com/comics/radians_are_cursed_2x.png)](https://xkcd.com/2748)
+[![Alt text](https://imgs.xkcd.com/comics/coordinate_plane_closure_2x.png)](https://xkcd.com/2735)
+
+
+<a href="https://xkcd.com/2748">Radian are cursed<a>

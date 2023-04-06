@@ -22,10 +22,10 @@ generate_feed = true
 feed_filename = "atom.xml"
 
 # [recommended] the title of the website
-title = "tai microblog"
+title = "tai story"
 
 # [recommended] the description of the website
-description = "the personal microblog of tai"
+description = "the personal journal of tai"
 
 # [recommended] the default language of the website
 default_language = "en"
