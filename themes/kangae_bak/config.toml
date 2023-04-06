@@ -3,7 +3,7 @@
 # for the complete configuration file
 
 # [MANDATORY] the URL of the microblog
-base_url = "https://phdtai.github.io"
+base_url = "https://kangae.ayushnix.com"
 
 # [recommended] kangae doesn't use sass for its global stylesheet
 compile_sass = false
@@ -22,10 +22,10 @@ generate_feed = true
 feed_filename = "atom.xml"
 
 # [recommended] the title of the website
-title = "tai microblog"
+title = "shikamaru microblog"
 
 # [recommended] the description of the website
-description = "the personal microblog of tai"
+description = "the personal microblog of shikamaru"
 
 # [recommended] the default language of the website
 default_language = "en"
@@ -44,8 +44,7 @@ taxonomies = [
 # syntax highlight, in itself isn't sufficient and if enabled, it needs to
 # support both light and dark modes which will add an overhead of approximately
 # 6kb of unminified CSS. you can decide if it's worth it or not
-highlight_code = true 
-highlight_theme ="ir-white"
+highlight_code = false
 
 # [optional] convert text emoji, such as :smile:,to the actual iconic emoji
 render_emoji = true
@@ -65,17 +64,14 @@ smart_punctuation = false
 # ---------------------------------------------------------------------------- #
 
 [extra]
-katex_enabled = true
-# katex_auto_render = true 
-
 # [recommended] your name
-author = "Tai Pham"
+author = "Nara Shikamaru"
 
 # [recommended] your internet username
-username = "tai"
+username = "shikamaru"
 
 # [optional] your 128x128 avatar, preferably svg
-avatar = "images/computer-nerd-icon.png"
+avatar = "images/shikamaru_avatar.webp"
 
 # [optional] the keywords which highlight the type of content on your microblog
 keywords = [ "microblog", "linux", "devops", "openbsd" ]
@@ -89,8 +85,8 @@ keywords = [ "microblog", "linux", "devops", "openbsd" ]
 # [optional] additional links that should be present in the navbar
 # `name` and `url` should be present for visibility, `rel` is optional
 navbar = [
-#   { name = "mastodon", url = "https://social.treehouse.systems/@ayushnix", rel="me" },
-  { name = "github", url = "https://github.com/phdtai", rel="me" }
+  { name = "mastodon", url = "https://social.treehouse.systems/@ayushnix", rel="me" },
+  { name = "github", url = "https://github.com/ayushnix/kangae", rel="me" }
 ]
 
 # https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color
@@ -150,14 +146,11 @@ share = true
 # [optional] show a link which redirects to github discussions for writing comments
 # in the example provided below, the URL will be
 # https://github.com/ayushnix/kangae/discussions/new?category=general&title=The+Post+Title
-# discuss_github = true
-# github_url = "https://github.com/ayushnix/kangae"
+discuss_github = true
+github_url = "https://github.com/ayushnix/kangae"
 
 # [optional] other misc urls that should be shown in the post footers
 # both `name` and `url` should be defined for visibility
 # misc = [
 #   { name = "misc", url = "https://misc.xyz" }
 # ]
-
-
-
