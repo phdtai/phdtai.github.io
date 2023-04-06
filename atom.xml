@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>tai story</title>
+	<subtitle>the personal journal of tai</subtitle>
+	<link href="https://phdtai.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://phdtai.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-04-06T00:00:00+00:00</updated>
+	<id>https://phdtai.github.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>My first post</title>
+		<published>2023-04-06T00:00:00+00:00</published>
+		<updated>2023-04-06T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://phdtai.github.io/my-first-post/" type="text/html"/>
+		<id>https://phdtai.github.io/my-first-post/</id>
+		<content type="html">&lt;p&gt;It has been a while after I tried to build a webpage myself. The reason why I didn&#x27;t explore this area is simply because building a webpage takes quite an efforts to learn and implement and obviously, time is not on my side. &lt;&#x2F;p&gt;
+&lt;p&gt;Testing a python code block&lt;&#x2F;p&gt;
+&lt;pre data-linenos data-lang=&quot;python&quot; style=&quot;background-color:#ffffff;color:#010101;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;&lt;span style=&quot;color:#016692;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span&gt;numpy &lt;&#x2F;span&gt;&lt;span style=&quot;color:#016692;&quot;&gt;as &lt;&#x2F;span&gt;&lt;span&gt;np
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;&lt;span style=&quot;color:#016692;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span&gt;pandas &lt;&#x2F;span&gt;&lt;span style=&quot;color:#016692;&quot;&gt;as &lt;&#x2F;span&gt;&lt;span&gt;pd
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Testing math formula 
+&lt;script type=&quot;math&#x2F;tex&quot;&gt;y=a+bx&lt;&#x2F;script&gt;
+I have success fully add KaTex support for this theme. From now on I can use the &lt;kbd&gt;katex.html&lt;&#x2F;kbd&gt; short code to generate math symbols and equation. For example, we can use greek letter as &lt;script type=&quot;math&#x2F;tex&quot;&gt;\alpha&lt;&#x2F;script&gt; &lt;&#x2F;p&gt;
+&lt;p&gt;We can also write an equation using this
+&lt;script type=&quot;math&#x2F;tex;mode=display&quot;&gt;f(x)=a+bx+cx^{2}&lt;&#x2F;script&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Testing emoji
+&lt;code role=&quot;img&quot; aria-label=&quot;shrug kaomoji&quot;&gt;╮( ˘_˘ )╭&lt;&#x2F;code&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Testing image embbeding&lt;&#x2F;p&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;xkcd.com&#x2F;2748&quot;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;imgs.xkcd.com&#x2F;comics&#x2F;radians_are_cursed.png&quot; width=&quot;400&quot;&gt; &lt;a&gt;
+&lt;p&gt;&lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;xkcd.com&#x2F;2748&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;imgs.xkcd.com&#x2F;comics&#x2F;radians_are_cursed_2x.png&quot; alt=&quot;Alt text&quot; &#x2F;&gt;&lt;&#x2F;a&gt;
+&lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;xkcd.com&#x2F;2735&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;imgs.xkcd.com&#x2F;comics&#x2F;coordinate_plane_closure_2x.png&quot; alt=&quot;Alt text&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;xkcd.com&#x2F;2748&quot;&gt;Radian are cursed&lt;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Site generation using zola</title>
+		<published>2023-04-06T00:00:00+00:00</published>
+		<updated>2023-04-06T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://phdtai.github.io/site-generation-using-zola/" type="text/html"/>
+		<id>https://phdtai.github.io/site-generation-using-zola/</id>
+		<content type="html">&lt;p&gt;This site is developed by using &lt;strong&gt;zola&lt;&#x2F;strong&gt; and &lt;strong&gt;kangae&lt;&#x2F;strong&gt; theme. Working with zola is new territory for me. Although the generating process is pretty simple and straight forward, customizing the site and publishing it on a plfatform, e.g. &lt;strong&gt;GitHub Pages&lt;&#x2F;strong&gt;, are not quite clear for beginner. As a result, I wrote down a few notes for those, who are interested in experiementing this tool.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The build and deploy script for Github Pages does not work by using v1.17 at the time of this writing. I have to downgrade to v1.16.11 to proceed with the process.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;When using a theme, it must be added to your repo as a submodule, which will be updated when the maintainer of that theme commit some updates. This is feature that I don&#x27;t prefer because I usually make a lot of customizations. As a result, to build a page with a theme of interest without being affected by new updates from maintainer, we should copy the content of that them to our own directories, which we created by using &lt;kbd&gt;zalo init&lt;&#x2F;kbd&gt; command.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Some of the themes do not support rendering mathematical symbols and equations. There is a work around for this issue by including &lt;kbd&gt;katex.html&lt;&#x2F;kbd&gt; in &lt;kbd&gt;templates&#x2F;shortcodes&lt;&#x2F;kbd&gt; directory and adding the following code the &lt;kbd&gt;header&lt;&#x2F;kbd&gt; of &lt;kbd&gt;base.html&lt;&#x2F;kbd&gt; page.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;pre data-linenos data-lang=&quot;html&quot; style=&quot;background-color:#ffffff;color:#010101;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;&lt;span&gt;      {% if config.extra.katex_enabled %}
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#00528b;&quot;&gt;&amp;lt;link &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bc4d00;&quot;&gt;rel&lt;&#x2F;span&gt;&lt;span style=&quot;color:#00528b;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#009f78;&quot;&gt;&amp;quot;stylesheet&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bc4d00;&quot;&gt;href&lt;&#x2F;span&gt;&lt;span style=&quot;color:#00528b;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#009f78;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;katex@0.15.1&#x2F;dist&#x2F;katex.min.css&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bc4d00;&quot;&gt;integrity&lt;&#x2F;span&gt;&lt;span style=&quot;color:#00528b;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#009f78;&quot;&gt;&amp;quot;sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj&#x2F;6JR5z27gSSULCNHIRReVs&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bc4d00;&quot;&gt;crossorigin&lt;&#x2F;span&gt;&lt;span style=&quot;color:#00528b;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#009f78;&quot;&gt;&amp;quot;anonymous&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#00528b;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;&amp;lt;script &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bc4d00;&quot;&gt;defer src&lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#009f78;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;katex@0.15.1&#x2F;dist&#x2F;katex.min.js&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bc4d00;&quot;&gt;integrity&lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#009f78;&quot;&gt;&amp;quot;sha384-z1fJDqw8ZApjGO3&#x2F;unPWUPsIymfsJmyrDVWC8Tv&#x2F;a1HeOtGmkwNd&#x2F;7xUS0Xcnvsx&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bc4d00;&quot;&gt;crossorigin&lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#009f78;&quot;&gt;&amp;quot;anonymous&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;&amp;gt;&amp;lt;&#x2F;script&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;&amp;lt;script &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bc4d00;&quot;&gt;defer src&lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#009f78;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;katex@0.15.1&#x2F;dist&#x2F;contrib&#x2F;mathtex-script-type.min.js&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bc4d00;&quot;&gt;integrity&lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#009f78;&quot;&gt;&amp;quot;sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bc4d00;&quot;&gt;crossorigin&lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#009f78;&quot;&gt;&amp;quot;anonymous&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;&amp;gt;&amp;lt;&#x2F;script&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td&gt;&lt;span&gt;        {% if config.extra.katex_auto_render %}
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;&#x2F;td&gt;&lt;td&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;&amp;lt;script &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bc4d00;&quot;&gt;defer src&lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#009f78;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;katex@0.15.1&#x2F;dist&#x2F;contrib&#x2F;auto-render.min.js&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bc4d00;&quot;&gt;integrity&lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#009f78;&quot;&gt;&amp;quot;sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bc4d00;&quot;&gt;crossorigin&lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#009f78;&quot;&gt;&amp;quot;anonymous&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#0067c2;&quot;&gt;&amp;gt;&amp;lt;&#x2F;script&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;7&lt;&#x2F;td&gt;&lt;td&gt;&lt;span&gt;        {% endif %}
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;8&lt;&#x2F;td&gt;&lt;td&gt;&lt;span&gt;      {% endif %}
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Being Shikamaru 101</title>
+		<published>2022-05-03T00:00:00+00:00</published>
+		<updated>2022-05-03T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://phdtai.github.io/being-shikamaru-101/" type="text/html"/>
+		<id>https://phdtai.github.io/being-shikamaru-101/</id>
+		<content type="html">&lt;p&gt;I never really liked Sasuke, but all the same, he&#x27;s a member of Konoha; he&#x27;s a comrade and I&#x27;ll put
+my life on the line to help him, that&#x27;s the way of our village. I know I usually seem like a pretty
+lazy guy but not today, because now I&#x27;m responsible for your lives too.&lt;&#x2F;p&gt;
+&lt;p&gt;How many times do I have to tell you? The first move is always a feint. It&#x27;s the most basic thing to
+land a hit with the second move.&lt;&#x2F;p&gt;
+&lt;pre data-linenos data-lang=&quot;css&quot; style=&quot;background-color:#ffffff;color:#010101;&quot; class=&quot;language-css &quot;&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;&lt;span style=&quot;text-decoration:underline;color:#0067c2;&quot;&gt;html &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;box-sizing&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#675c06;&quot;&gt;border-box&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Oh, man … those clouds are so lucky … so free … More to the point, I didn&#x27;t feel like doing this
+in the first place … And I only became a ninja because I thought life would&#x27;ve been more interesting
+as one … I suppose things aren&#x27;t gonna be that simple.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;See, you and I have different beliefs. I believe in the &lt;code&gt;Will of Fire&lt;&#x2F;code&gt;. That pathetic Lord Jashin or
+whatever isn&#x27;t your God any more. I am. The only one bringing down &lt;mark&gt;vengeance&lt;&#x2F;mark&gt; is me. Let
+me just go ahead and press &lt;kbd&gt;ALT+F4&lt;&#x2F;kbd&gt; to erase your existence once and forever by trapping
+you in this forest which overlooked by deers that are allied to me and my clan.&lt;&#x2F;p&gt;
+&lt;p&gt;Here&#x27;s a sample list&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;shogi&lt;&#x2F;li&gt;
+&lt;li&gt;asuma&lt;&#x2F;li&gt;
+&lt;li&gt;choji&lt;&#x2F;li&gt;
+&lt;li&gt;ino&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Here&#x27;s another sample list&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;shogi&lt;&#x2F;li&gt;
+&lt;li&gt;asuma&lt;&#x2F;li&gt;
+&lt;li&gt;choji&lt;&#x2F;li&gt;
+&lt;li&gt;ino&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Being Shikamaru 102</title>
+		<published>2022-04-29T00:00:00+00:00</published>
+		<updated>2022-04-29T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://phdtai.github.io/being-shikamaru-102/" type="text/html"/>
+		<id>https://phdtai.github.io/being-shikamaru-102/</id>
+		<content type="html">&lt;p&gt;Ughh. Great. What&#x27;s the point in setting the alarm if I&#x27;m going to wake up before it goes off? What
+a total waste. Now I&#x27;ve gotta shut it off but I don&#x27;t feel like moving. But if I don&#x27;t shut it off
+it will just keep ringing and ringing. It makes me tired just thinking about the whole thing. Some
+mornings are such a drag …&lt;&#x2F;p&gt;
+&lt;p&gt;Here&#x27;s a code block without a language identifier or line numbers&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#ffffff;color:#010101;&quot;&gt;&lt;code&gt;&lt;span&gt;# nihilism in a nutshell
+&lt;&#x2F;span&gt;&lt;span&gt;cat &#x2F;dev&#x2F;urandom &amp;gt; &#x2F;dev&#x2F;null
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Here&#x27;s a wise quote using a custom shortcode without any citations or the name of the author&lt;&#x2F;p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You would think just this once, when it was life or death, I could pull through.&lt;&#x2F;p&gt;
+  &lt;br&gt;
+  &lt;p class=&quot;author&quot;&gt;— Nara Shikamaru&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Here&#x27;s a wise quote with a citation but without an author&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figquote&quot;&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Every day I&amp;#x27;m here, I think: Why did it ever come to this? Damaged minds and bodies ... their freedom taken away ... even losing themselves. If people knew it would come to this, nobody would go to war. But most people are pushed by something, forced to march into hell. That &amp;quot;something&amp;quot; wasn&amp;#x27;t their choice. Their situation or others made them do it. But people who push their own backs see a different kind of hell. They can see something beyond the hell. It might be hope. It may even be another hell. Only those who keep moving forward will ever know.&lt;&#x2F;p&gt;
+  &lt;&#x2F;blockquote&gt;
+  &lt;figcaption&gt;&lt;cite&gt;Shingeki no Kyojin, Volume 24, Chapter 97&lt;&#x2F;cite&gt;&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Here&#x27;s a wise quote with a citation and the name of the author&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figquote&quot;&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Stand in the ashes of a trillion dead souls, and ask the ghosts if honor matters. The silence is your answer.&lt;&#x2F;p&gt;
+    &lt;br&gt;
+    &lt;p class=&quot;author&quot;&gt;— Javik&lt;&#x2F;p&gt;
+  &lt;&#x2F;blockquote&gt;
+  &lt;figcaption&gt;&lt;cite&gt;Mass Effect 3&lt;&#x2F;cite&gt;&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;And that&#x27;s all folks!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title></title>
+		<published>2022-04-28T00:00:00+00:00</published>
+		<updated>2022-04-28T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://phdtai.github.io/being-shikamaru-103/" type="text/html"/>
+		<id>https://phdtai.github.io/being-shikamaru-103/</id>
+		<content type="html">&lt;p&gt;Laziness is the mother of all bad habits, but ultimately she is a mother and we should respect her.&lt;&#x2F;p&gt;
+&lt;p&gt;In fact, I&#x27;ve respected her right now by omitting both the title and the date in the markdown file
+for this post.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;but ... but ... that&#x27;s not right&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Oh, stop complaining, Zola will pick up the date from the filename.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;The title?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Well, let&#x27;s just forget about it.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;If you won&#x27;t specify the title, the &lt;code&gt;discuss on github&lt;&#x2F;code&gt; link won&#x27;t be shown&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Meh, who cares about that anyways.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;What about the tags?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Yeah, let&#x27;s skip those as well. What a drag ... &lt;code role=&quot;img&quot; aria-label=&quot;shrug kaomoji&quot;&gt;╮( ˘_˘ )╭&lt;&#x2F;code&gt;
+&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Being Shikamaru 104</title>
+		<published>2022-04-27T00:00:00+00:00</published>
+		<updated>2022-04-27T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://phdtai.github.io/being-shikamaru-104/" type="text/html"/>
+		<id>https://phdtai.github.io/being-shikamaru-104/</id>
+		<content type="html">&lt;p&gt;You will eventually be the one treating others to ramen… and you&#x27;ll be called Naruto-sensei, or
+something. We can&#x27;t stay brats forever. If we want to become super cool ninja like Asuma and Lord
+Jiraiya, that is.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

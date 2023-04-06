@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>tai story - tag2</title>
+	<subtitle>the personal journal of tai</subtitle>
+	<link href="https://phdtai.github.io/tags/tag2/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://phdtai.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-04-29T00:00:00+00:00</updated>
+	<id>https://phdtai.github.io/tags/tag2/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Being Shikamaru 102</title>
+		<published>2022-04-29T00:00:00+00:00</published>
+		<updated>2022-04-29T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://phdtai.github.io/being-shikamaru-102/" type="text/html"/>
+		<id>https://phdtai.github.io/being-shikamaru-102/</id>
+		<content type="html">&lt;p&gt;Ughh. Great. What&#x27;s the point in setting the alarm if I&#x27;m going to wake up before it goes off? What
+a total waste. Now I&#x27;ve gotta shut it off but I don&#x27;t feel like moving. But if I don&#x27;t shut it off
+it will just keep ringing and ringing. It makes me tired just thinking about the whole thing. Some
+mornings are such a drag …&lt;&#x2F;p&gt;
+&lt;p&gt;Here&#x27;s a code block without a language identifier or line numbers&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#ffffff;color:#010101;&quot;&gt;&lt;code&gt;&lt;span&gt;# nihilism in a nutshell
+&lt;&#x2F;span&gt;&lt;span&gt;cat &#x2F;dev&#x2F;urandom &amp;gt; &#x2F;dev&#x2F;null
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Here&#x27;s a wise quote using a custom shortcode without any citations or the name of the author&lt;&#x2F;p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You would think just this once, when it was life or death, I could pull through.&lt;&#x2F;p&gt;
+  &lt;br&gt;
+  &lt;p class=&quot;author&quot;&gt;— Nara Shikamaru&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Here&#x27;s a wise quote with a citation but without an author&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figquote&quot;&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Every day I&amp;#x27;m here, I think: Why did it ever come to this? Damaged minds and bodies ... their freedom taken away ... even losing themselves. If people knew it would come to this, nobody would go to war. But most people are pushed by something, forced to march into hell. That &amp;quot;something&amp;quot; wasn&amp;#x27;t their choice. Their situation or others made them do it. But people who push their own backs see a different kind of hell. They can see something beyond the hell. It might be hope. It may even be another hell. Only those who keep moving forward will ever know.&lt;&#x2F;p&gt;
+  &lt;&#x2F;blockquote&gt;
+  &lt;figcaption&gt;&lt;cite&gt;Shingeki no Kyojin, Volume 24, Chapter 97&lt;&#x2F;cite&gt;&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Here&#x27;s a wise quote with a citation and the name of the author&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figquote&quot;&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Stand in the ashes of a trillion dead souls, and ask the ghosts if honor matters. The silence is your answer.&lt;&#x2F;p&gt;
+    &lt;br&gt;
+    &lt;p class=&quot;author&quot;&gt;— Javik&lt;&#x2F;p&gt;
+  &lt;&#x2F;blockquote&gt;
+  &lt;figcaption&gt;&lt;cite&gt;Mass Effect 3&lt;&#x2F;cite&gt;&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;And that&#x27;s all folks!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Being Shikamaru 104</title>
+		<published>2022-04-27T00:00:00+00:00</published>
+		<updated>2022-04-27T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://phdtai.github.io/being-shikamaru-104/" type="text/html"/>
+		<id>https://phdtai.github.io/being-shikamaru-104/</id>
+		<content type="html">&lt;p&gt;You will eventually be the one treating others to ramen… and you&#x27;ll be called Naruto-sensei, or
+something. We can&#x27;t stay brats forever. If we want to become super cool ninja like Asuma and Lord
+Jiraiya, that is.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
